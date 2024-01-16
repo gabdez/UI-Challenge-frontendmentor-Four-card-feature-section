@@ -1,0 +1,147 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* Primary Colors */
+/* Neutral Colors */
+/* Font and typography */
+/* Font weight */
+/* Margins */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  padding: 40px 2rem 40px 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-columns: 3;
+       columns: 3;
+  flex-grow: 1;
+  gap: 30px;
+}
+.card-section .mid-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.card-section .card {
+  max-width: 360px;
+  max-height: 250px;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 12px 12px -2px rgba(84, 84, 84, 0.3);
+  border-top: 4px solid;
+}
+.card-section .card.red {
+  border-color: hsl(0, 78%, 62%);
+}
+.card-section .card.cyan {
+  border-color: hsl(180, 62%, 55%);
+}
+.card-section .card.orange {
+  border-color: hsl(34, 97%, 64%);
+}
+.card-section .card.blue {
+  border-color: hsl(212, 86%, 64%);
+}
+.card-section .card .title {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.card-section .card .description {
+  color: hsl(229, 6%, 66%);
+}
+.card-section .card .icon {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.grid-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For full-screen images on small screens */
+@media screen and (max-width: 375px) {
+  .break-line {
+    display: none;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  .card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-columns: 1;
+         columns: 1;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .card-section .mid-col {
+    height: auto;
+  }
+  .card {
+    min-width: 200px;
+    min-height: 150px;
+  }
+  .main-container {
+    height: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

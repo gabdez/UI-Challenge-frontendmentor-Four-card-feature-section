@@ -1,0 +1,25 @@
+/* For full-screen images on small screens */
+@media screen and (max-width: 375px) {
+    .break-line {
+        display: none;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    .card-section {
+        @include flex-center();
+        columns: 1;
+        flex-wrap: wrap;
+        gap: 0px;
+        .mid-col {
+            height: auto;
+        }
+    }
+    .card {
+        min-width: 200px;
+        min-height: 150px;
+    }
+    .main-container {
+        height: 100%;
+    }
+}

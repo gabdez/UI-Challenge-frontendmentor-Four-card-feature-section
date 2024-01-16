@@ -1,0 +1,32 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* Primary Colors */
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-blue: hsl(212, 86%, 64%);
+
+/* Neutral Colors */
+
+$neutral-dark-blue: hsl(234, 12%, 34%);
+$neutral-grayish-Blue: hsl(229, 6%, 66%);
+$neutral-light-gray: hsl(0, 0%, 98%);
+
+/* Font and typography */
+$body-font: "Poppins", sans-serif;
+$h1-font-size: 2rem;
+$normal-font-size: 15px;
+
+/* Font weight */
+$font-thin: 200;
+$font-basic: 400;
+$font-bold: 600;
+
+/* Margins */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
